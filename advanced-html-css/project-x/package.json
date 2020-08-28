@@ -1,0 +1,25 @@
+{
+	"name": "project-x",
+	"version": "1.0.0",
+	"description": "Uri Bemak, group: fe1",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "GitLab",
+		"url": "https://gitlab.com/Uriel-fon-erlih/front-end-homeworks/advanced-html-css/project-x"
+	},
+	"private": "true",
+	"author": "Uri Bemak",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.26.12",
+		"eslint": "^7.6.0",
+		"gulp": "^4.0.2"
+	},
+	"dependencies": {
+		"bootstrap": "^4.5.2",
+		"moment": "^2.27.0"
+	}
+}

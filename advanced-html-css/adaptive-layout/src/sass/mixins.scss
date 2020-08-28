@@ -1,0 +1,11 @@
+@mixin fontStyleB () {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+@mixin fontStyleR () {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}

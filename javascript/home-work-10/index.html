@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<p class="welcome-window">You`are welcome!</p>
+			<form class="password-form" action="#" type="POST">
+				<label class="input-wrapper">
+					Ввести пароль
+					<input type="password" class="input input-one" />
+					<i id="icon" class="fas fa-eye-slash icon-password"></i>
+					<!-- <i id="icon" class="fas fa-eye icon-password" data-icon="open"></i> -->
+				</label>
+				<label class="input-wrapper">
+					Подтвердить пароль
+					<input type="password" class="input input-two" />
+					<i id="icon" class="fas fa-eye-slash icon-password"></i>
+					<p class="error-window">Нужно ввести одинаковые значения!</p>
+					<!-- <i id="icon" class="fas fa-eye icon-password" data-icon="open"></i> -->
+				</label>
+				<button type="submit" class="btn">Подтвердить</button>
+			</form>
+		</div>
+		<script src="./script/index.js"></script>
+	</body>
+</html>

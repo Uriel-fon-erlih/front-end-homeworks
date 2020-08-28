@@ -1,0 +1,187 @@
+@font-face {
+	font-family: 'Roboto';
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.container {
+	width: 1028px;
+	margin: 0 auto;
+}
+
+.background-picture {
+	background-image: url("../img/background-picture.png");
+	background-size: cover;
+	height: 100vh;
+	overflow-y: scroll;
+	background-repeat: no-repeat;
+}
+
+.header-zone {
+	padding: 60px 0 35px 0;
+}
+
+.page-logo {
+	float: left;
+}
+
+.page-logo-img {
+	display: inline-block;
+}
+
+.page-logo:hover .page-logo-img {
+	content: url("../img/milan-logo-hover.png");
+}
+
+.page-logo-title {
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	font-size: 29px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.page-logo:hover .page-logo-title {
+	color: #f26522;
+}
+
+.page-logo-subtitle {
+	display: block;
+	font-size: 18px;
+	margin-top: 4px;
+}
+
+.container-for-contact {
+	float: right;
+	font-size: 18px;
+	text-align: right;
+}
+
+.email-contact {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	display: block;
+	margin-bottom: 13px;
+}
+
+.email-contact:hover {
+	color: #f26522;
+}
+
+.tel-contact {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+.tel-contact:hover {
+	color: #f26522;
+}
+
+.tour-item {
+	float: left;
+	color: #fff;
+	margin-bottom: 41px;
+	margin-right: 62px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.tour-item:nth-child(3),
+.tour-item:nth-child(6) {
+	margin-right: 0;
+}
+
+.tour-item-photo {
+	width: 300px;
+	height: 220px;
+	padding-top: 162px;
+}
+
+.top-left-photo {
+	background: url("../img/shopping-tours1.png");
+}
+
+.top-centr-photo {
+	background: url("../img/sightseeing-tours2.png");
+}
+
+.top-right-photo {
+	background: url("../img/food-tours3.png");
+}
+
+.bottom-left-photo {
+	background: url("../img/bars-nighlife4.png");
+}
+
+.bottom-centr-photo {
+	background: url("../img/art-arhitecture5.png");
+}
+
+.bottom-right-photo {
+	background: url("../img/walking-tours6.png");
+}
+
+.tour-item-desc {
+	opacity: 0;
+	color: #fff;
+	background-color: #f26522;
+	padding: 10px 20px 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.tour-price {
+	float: left;
+	font-size: 18px;
+}
+
+.tour-price::before {
+	content: "from";
+	margin-bottom: 6px;
+	font-size: 10px;
+	display: block;
+}
+
+.tour-details {
+	float: right;
+	font-size: 14px;
+	margin-top: 18px;
+}
+
+.tour-details::after {
+	content: "〉";
+	margin-left: 24px;
+}
+
+.tour-item-subtitle {
+	color: #fff;
+	text-align: center;
+	margin-top: 18px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.tour-item:hover .tour-item-subtitle {
+	color: #f26522;
+}
+
+.tour-item:hover .tour-item-desc {
+	opacity: 1;
+}
+
+.footer-section {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.copyright {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #fff;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}

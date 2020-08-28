@@ -1,0 +1,271 @@
+@font-face {
+	font-family: 'Ubuntu';
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+.background-image {
+	background-image: url("../img/background.png");
+	height: 100vh;
+	overflow-y: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	width: 1155px;
+	margin: 0 auto;
+}
+
+.top-block-site {
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-title {
+	float: left;
+}
+
+.main-title-link {
+	font-size: 22px;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+.main-title-link:hover {
+	transition: 0.2s;
+	color: #3CB878;
+}
+
+.registration {
+	float: right;
+}
+
+.sprite-link {
+	background-image: url("../img/sprites.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 24px;
+	width: 28px;
+	height: 21px;
+	vertical-align: middle;
+}
+
+.sprite-link-caledar {
+	background-position: 3px -25px;
+}
+
+.sprite-link-caledar:hover {
+	background-position: 3px 0;
+	transition: all 0.2s ease-out;
+}
+
+.sprite-link-forum {
+	background-position: -26px -26px;
+}
+
+.sprite-link-forum:hover {
+	background-position: -25px 0;
+	transition: all 0.2s ease-out;
+}
+
+.sprite-link-journey {
+	background-position: -58px -26px;
+}
+
+.sprite-link-journey:hover {
+	background-position: -57px 0;
+	transition: all 0.2s ease-out;
+}
+
+.login-text {
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.login-text::before {
+	content: '|';
+	display: inline-block;
+	color: gray;
+	margin-right: 24px;
+}
+
+.login-text:not(:last-child) {
+	margin-right: 10px;
+}
+
+.login-link {
+	color: #3CB878;
+}
+
+.form-wrapper {
+	padding: 30px 60px;
+	width: 444px;
+	margin: 0 auto;
+	border-radius: 4px/4px;
+	box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.76);
+	background-color: #fff;
+	position: relative;
+	transform: translateY(calc((100vh - 61px - 602px) / 2));
+}
+
+.form-headers::before {
+	content: '';
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	background: #3CB878;
+}
+
+.form-registr {
+	float: left;
+	font-size: 20px;
+	color: #434343;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.form-login {
+	float: right;
+	font-size: 14px;
+	color: #3CB878;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-social-network {
+	margin: 30px 0;
+}
+
+.btn-facebook {
+	border-radius: 5px/5px;
+	padding: 16px 18px 12px;
+	background: #305DB8;
+	float: left;
+}
+
+.facebook {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.facebook::before {
+	content: "";
+	position: relative;
+	right: 32px;
+	border: 1px solid transparent;
+	border-left: 1px solid rgba(85, 78, 78, 0.507);
+}
+
+.btn-google {
+	border-radius: 5px/5px;
+	padding: 15px 18px;
+	background: #DF4A32;
+	float: right;
+}
+
+.google {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.google::before {
+	content: "";
+	position: relative;
+	right: 32px;
+	border: 1px solid transparent;
+	border-left: 1px solid rgba(85, 78, 78, 0.507);
+}
+
+.text-line {
+	text-align: center;
+	font-size: 14px;
+	color: #848484;
+	margin-bottom: 18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.text-line::before,
+.text-line::after {
+	content: "";
+	display: inline-block;
+	width: 147px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 2px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.input-group-item {
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #F2F2F2;
+	padding: 12px 16px 12px 16px;
+	outline: none;
+	font-family: 'Ubuntu', sans-serif;
+	color: #434343;
+	font-size: 14px;
+}
+
+.input-group-item::placeholder {
+	color: #bebebe;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+
+.input-group-item:focus {
+	transform: translateY(-7px);
+	box-shadow: 0px 3px 8px rgb(41, 40, 46);
+}
+
+.input-checkbox {
+	outline: none;
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+}
+
+.checkbox-text {
+	font-size: 14px;
+	color: #434343;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	vertical-align: middle;
+}
+
+.checkbox-text-color {
+	color: #3CB878;
+}
+
+.btn-submission {
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	background: #3CB878;
+	outline: none;
+	cursor: pointer;
+	padding: 16px 0;
+	border-radius: 4px/4px;
+	margin-top: 24px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}

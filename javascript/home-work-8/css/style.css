@@ -1,0 +1,102 @@
+.container {
+	padding: 150px;
+	background: linear-gradient(to right, black, red, rgba(32, 255, 2, 0.979), blue, black);
+	height: 100%;
+}
+
+.form-style {
+	margin: 0px auto;
+	width: 550px;
+	padding: 15px 75px 15px;
+	border: 2px dashed rgba(13, 7, 107, 0.836);
+	border-radius: 30px;
+	background:
+		repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px,
+			rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px,
+			rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
+			rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px,
+			rgba(255, 0, 0, 0.5) 300px),
+		repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px,
+			rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px,
+			rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px,
+			rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px,
+			rgba(255, 0, 0, 0.5) 230px),
+		repeating-linear-gradient(23deg, red 50px, orange 100px,
+			yellow 150px, green 200px, blue 250px,
+			indigo 300px, violet 350px, red 370px);
+}
+
+.input-style {
+	background-color: white;
+	margin-left: 5px;
+	width: 257px;
+	height: 25px;
+	border: 2px solid white;
+	border-radius: 5px;
+	outline: none;
+}
+
+.label-style {
+	display: block;
+	font-family: sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: rgb(10, 34, 34);
+}
+
+.green-border {
+	border: 3px groove green;
+}
+
+.red-border {
+	border: 3px groove red;
+}
+
+.alert-style {
+	position: relative;
+	border: 2px groove rgba(13, 7, 107, 0.836);
+	margin-left: 75px;
+	display: inline-block;
+	background-color: white;
+	border-radius: 5px;
+	width: 258px;
+	visibility: hidden;
+}
+
+.span-style {
+	padding: 0 0 0 5px;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.span-reset {
+	position: absolute;
+	left: 241px;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 3px/3px;
+	background-color: red;
+}
+
+.span-error {
+	border: 2px groove rgba(13, 7, 107, 0.836);
+	margin-top: 5px;
+	margin-left: 76px;
+	display: inline-block;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	background-color: white;
+	padding: 0 0 0 5px;
+	border-radius: 5px;
+	color: red;
+	width: 258px;
+	visibility: hidden;
+}
+
+.value-green {
+	color: green;
+	background: greenyellow;
+}

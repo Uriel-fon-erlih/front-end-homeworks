@@ -1,0 +1,161 @@
+.container {
+	margin: 0 auto;
+	width: 1192px;
+}
+
+.table__form {
+	width: 100%;
+	border: 15px solid #3A4965;
+	border-collapse: collapse;
+}
+
+.table__form-row {
+	background: #FAFAFA;
+	font-family: 'Arimo', sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #484848;
+}
+
+.table__border {
+	border: 2px solid#cfcdcd;
+}
+
+.row__suptitle {
+	padding: 60px 35px;
+	font-size: 18px;
+	color: #484848;
+}
+
+.row__subtitle {
+	display: block;
+	font-size: 30px;
+}
+
+.table__text {
+	padding: 30px 55px;
+}
+
+.table__text--green {
+	background: #89C331;
+}
+
+.table__text--red {
+	background: #F04A56;
+}
+
+.table__text--teal {
+	background: #20807C;
+}
+
+.table__form--sup-head {
+	font-weight: bold;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+.table__form--sub-head {
+	font-weight: bold;
+	font-size: 60px;
+	color: #484848;
+}
+
+.price__cent {
+	font-size: 24px;
+	position: relative;
+	bottom: 16px;
+}
+
+.table__product-price {
+	padding: 13px 0;
+}
+
+.table__form--sub-text {
+	position: relative;
+	bottom: 14px;
+	right: 44px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.table__body {
+	padding: 20px 45px;
+}
+
+.table__foot {
+	padding: 20px 45px;
+}
+
+.fa {
+	font-size: 24px;
+	color: #848484;
+}
+
+.btn__gray,
+.btn__green,
+.btn__red,
+.btn__teal {
+	width: 192px;
+	padding: 50px;
+	padding: 15px 25px 9px;
+	color: #fff;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	border-radius: 4px/4px;
+	border-bottom: 6px solid #58505071;
+	text-transform: uppercase;
+}
+
+.btn__gray {
+	background: #484848;
+}
+
+.btn__gray:hover {
+	color: #484848;
+	background-color: #d6d1d1;
+	transition: 0.2s;
+}
+
+.btn__green {
+	background: #89C331;
+}
+
+.btn__green:hover {
+	color: #89C331;
+	background-color: #d6d1d1;
+	transition: 0.2s;
+}
+
+.btn__red {
+	background: #F04A56;
+}
+
+.btn__red:hover {
+	color: #F04A56;
+	background-color: #d6d1d1;
+	transition: 0.2s;
+}
+
+.btn__teal {
+	background: #20807C;
+}
+
+.btn__teal:hover {
+	color: #20807C;
+	background-color: #d6d1d1;
+	transition: 0.2s;
+}
+
+.table__row--bgr:nth-child(even) {
+	background-color: #E3E3E3;
+
+}
+
+.table__row--bgr:nth-child(odd) {
+	background-color: #F2F2F2;
+
+}

@@ -1,0 +1,85 @@
+.wrapper {
+	background-color: rgb(183, 199, 160);
+	padding: 70px 0 0;
+	height: 100vh;
+}
+
+.password-form {
+	position: relative;
+	left: 33.6%;
+	display: inline-block;
+	width: 413px;
+	border: 5px dashed black;
+	padding: 20px;
+	border-radius: 15px;
+	background-color: cadetblue;
+}
+
+.input-wrapper {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	font-style: italic;
+	font-family: sans-serif;
+	color: rgb(4, 27, 27);
+}
+
+.input-wrapper .input {
+	margin-bottom: 20px;
+}
+
+.input {
+	border: 2px solid white;
+	border-radius: 10px;
+	height: 25px;
+}
+
+.fas {
+	color: rgb(27, 27, 158);
+	cursor: pointer;
+	padding: 5px;
+}
+
+.btn {
+	font-weight: bold;
+	font-size: 16px;
+	font-style: italic;
+	font-family: sans-serif;
+	padding: 10px;
+	border-radius: 14px;
+	border: 2px dotted rgb(16, 170, 16);
+	color: rgb(39, 231, 14);
+	background-color: rgb(25, 25, 165);
+}
+
+.error-window {
+	color: red;
+	background: rgb(245, 245, 245);
+	font-weight: bold;
+	font-size: 16px;
+	font-style: italic;
+	font-family: sans-serif;
+	padding: 4px;
+	border-radius: 5px;
+	text-align: center;
+	width: 316px;
+	margin: 0 auto 17px;
+	border: 2px dotted black;
+	display: none;
+}
+
+.welcome-window {
+	color: rgb(19, 3, 3);
+	background: rgb(245, 245, 245);
+	font-weight: bold;
+	font-size: 16px;
+	font-style: italic;
+	font-family: sans-serif;
+	padding: 15px;
+	border-radius: 5px;
+	text-align: center;
+	width: 200px;
+	margin: 0 auto 10px;
+	border: 2px solid teal;
+	display: none;
+}

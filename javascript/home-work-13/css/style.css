@@ -1,0 +1,117 @@
+.navbar {
+	text-align: center;
+	margin: 0 auto 32px;
+	padding-top: 32px;
+}
+
+.link-navbar {
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 2.3px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #0deb18;
+	margin: 0 58px 0;
+	font-family: sans-serif;
+	padding: 14px;
+	border-radius: 7px;
+	transition: ease all 1s;
+	box-shadow: 0px 1px 6px 3px rgb(73, 52, 52);
+}
+
+.link-navbar:hover {
+	color: black;
+	transition: ease all 1s;
+	box-shadow: 0px 1px 6px 3px rgb(0, 0, 0);
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.image-phone-hand {
+	width: 100%;
+}
+
+.second-heading {
+	font-weight: bold;
+	font-size: 22px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	margin: 47px auto 22px;
+	text-transform: uppercase;
+	color: #373737;
+}
+
+.lorem-text {
+	font-family: sans-serif;
+	font-size: 16px;
+	letter-spacing: 1.3px;
+	line-height: 26px;
+	margin: 22px 68px 22px;
+	color: #373737;
+}
+
+.get-started {
+	font-family: sans-serif;
+	margin: 23px auto 65px;
+	padding: 15px 40px;
+	background-color: #0deb18;
+	border-radius: 7px;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #000;
+	transition: all ease 1s;
+	box-shadow: 0px 1px 6px 3px rgb(0, 0, 0);
+}
+
+.get-started:hover {
+	transition: all ease 1s;
+	color: #0deb18;
+	background-color: black;
+}
+
+.copyright {
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 2.4px;
+	color: #373737;
+	text-align: right;
+	margin-right: 80px;
+	padding-bottom: 55px;
+}
+
+.check-one {
+	width: 80px;
+	height: 80px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	border-radius: 50%;
+	border: 3px dashed #0deb18;
+	position: fixed;
+	background-color: black;
+	color: #0deb18;
+	left: 0;
+	top: 0;
+}
+
+.check-two {
+	width: 80px;
+	height: 80px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	border-radius: 50%;
+	border: 3px dashed black;
+	position: fixed;
+	background-color: #0deb18;
+	color: black;
+	left: 0;
+	top: 0;
+}

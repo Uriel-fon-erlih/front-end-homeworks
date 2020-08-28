@@ -1,0 +1,55 @@
+.wrapper {
+	background: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	overflow: hidden;
+	color: #ffb13a;
+}
+
+.titre {
+	font-family: Arial, sans-serif;
+	text-align: justify;
+	margin: 0 auto;
+	line-height: 1.5;
+	width: 1000px;
+	height: 1600px;
+	transform: perspective(550px) rotateX(18deg);
+	animation: scrollTitre 30s linear infinite;
+}
+
+.titre__suptitle {
+	text-align: center;
+	margin: 40px 0;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.titre__subtitle {
+	text-align: center;
+	margin: 0 0 100px 0;
+	font-size: 90px;
+	font-weight: 700;
+}
+
+.titre__text {
+	margin: 60px 0;
+	font-weight: 600;
+	font-size: 70px;
+}
+
+@keyframes scrollTitre {
+	0% {
+		transform: perspective(840px) rotateX(21deg) translateY(700px);
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: perspective(160px) rotateX(9deg) translateY(-4000px);
+		opacity: 0;
+	}
+}
